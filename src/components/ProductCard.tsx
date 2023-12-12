@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { ProductType } from "./services/products"
-import { Button, Card, CardBody, CardSubtitle } from "react-bootstrap"
+import { Button, Card, CardSubtitle } from "react-bootstrap"
 import Link from "next/link"
 import Image from "next/image"
 import SuccessToast from "./SuccessToast"
@@ -20,7 +20,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           <Image className="card-img-top" src={imageUrl} alt={product.name} height={500} width={600}/>
         </Link>
 
-        <CardBody>
+        <Card.Body>
           <Link href={`/products/${id}`}>
             <h5 className="card-title" style={{ cursor: 'pointer' }}>
               {name}
@@ -40,7 +40,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           >
             Adicionar ao Carrinho
           </Button>
-        </CardBody>
+        </Card.Body>
       </Card>
 
       <SuccessToast toastIsOpen={toastIsOpen} setToastIsOpen={setToastIsOpen}/>

@@ -1,4 +1,4 @@
-import { Button, Toast, ToastBody } from "react-bootstrap"
+import { Button, CloseButton, Toast, ToastBody } from "react-bootstrap"
 
 const SuccessToast = (props: {
   toastIsOpen: boolean
@@ -11,10 +11,10 @@ const SuccessToast = (props: {
     >
       <ToastBody className="d-flex justify-content-between">
         Produto adicionado ao carrinho.
-        <Button
+        <CloseButton
           className="btn-close-white"
           onClick={() => props.setToastIsOpen(false)}
-        ></Button>
+        ></CloseButton>
       </ToastBody>
     </Toast>
   )
