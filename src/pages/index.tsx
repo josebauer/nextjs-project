@@ -1,6 +1,7 @@
 import Header from '@/components/Header'
 import Head from 'next/head'
-import { Container } from 'react-bootstrap'
+import Link from 'next/link'
+import { Button, Container } from 'react-bootstrap'
 
 export default function Home() {
   return (
@@ -11,17 +12,23 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header /> 
+      <Header />
 
-      <Container>
-        <h1>
-          Bem vindo ao Projeto <a href="https://nextjs.org">Next.js</a>
-        </h1>
-
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae porro debitis commodi earum quam labore voluptatem aperiam eligendi cupiditate iste. Incidunt, qui odit dolorem commodi laudantium fugit consequuntur ab. Ea.
-        </p>
-      </Container>
+      <main>
+        <Container className='py-5 text-center'>
+          <h1 className='mt-5 display-1'>
+            Tech Shop
+          </h1>
+          <p className='my-4 display-6'>
+            Encontre aqui seus eletrônicos preferidos com o melhor preço!
+          </p>
+          <Link href="/products">
+            <Button className='px-4 pb-2'>
+              Conheça nossos produtos
+            </Button>
+          </Link>
+        </Container>
+      </main>
     </>
   )
 }

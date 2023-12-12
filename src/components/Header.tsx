@@ -6,7 +6,7 @@ export default function Header() {
     <Navbar expand="lg" className="bg-primary" data-bs-theme="dark">
       <Container>
         <Link href="/" className="navbar-brand">
-          E-COMMERCE
+          Tech Shop
         </Link>
         <Nav>
           <Link href="/" className="nav-link">
