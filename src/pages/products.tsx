@@ -1,7 +1,20 @@
 import Header from '@/components/Header'
+import ProductsList from '@/components/ProductsList'
+import { ProductType, fetchProducts } from '@/components/services/products'
+import { GetStaticProps } from 'next'
 import Head from 'next/head'
+import { ReactNode } from 'react'
+import { Container } from 'react-bootstrap'
 
-export default function Products() {
+export const getStaticProps: GetStaticProps = async () => {
+  const products = await fetchProducts()
+  return { props: { products } }
+}
+
+export default function Products(props: {
+  children?: ReactNode
+  products?: ProductType[]
+}) {
   return (
     <>
       <Head>
@@ -11,8 +24,14 @@ export default function Products() {
       </Head>
 
       <Header />
-      
-      <h1>Nossos produtos</h1>
+
+      <main>
+        <Container className='mb-5'>
+          <h1 className='my-5'>Nossos produtos</h1>
+
+          {<ProductsList products={props.products!} />}
+        </Container>
+      </main>
     </>
   )
 }
