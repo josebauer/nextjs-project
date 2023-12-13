@@ -4,6 +4,7 @@ import { Button, Card, CardSubtitle } from "react-bootstrap"
 import Link from "next/link"
 import Image from "next/image"
 import SuccessToast from "./SuccessToast"
+import { useCart } from "@/hooks/UseCart"
 
 type ProductCardProps = {
   product: ProductType
@@ -12,6 +13,7 @@ type ProductCardProps = {
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const [toastIsOpen, setToastIsOpen] = useState(false)
   const { id, name, imageUrl, price } = product
+  const { addProduct } = useCart()
 
   return (
     <>
@@ -34,6 +36,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           <Button
             className="pb-2"
             onClick={() => {
+              addProduct(product)
               setToastIsOpen(true)
               setTimeout(() => setToastIsOpen(false), 1000 * 3)
             }}

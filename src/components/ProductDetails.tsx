@@ -3,6 +3,7 @@ import { ProductType } from "./services/products"
 import { Button, Col, Row } from "react-bootstrap"
 import Image from "next/image"
 import SuccessToast from "./SuccessToast"
+import { useCart } from "@/hooks/UseCart"
 
 type ProductDetailProps = {
   product: ProductType
@@ -10,6 +11,7 @@ type ProductDetailProps = {
 
 const ProductDetails: React.FC<ProductDetailProps> = ({ product }) => {
   const [toastIOsOpen, setToastIsOpen] = useState(false)
+  const { addProduct } = useCart()
 
   return (
     <Row>
@@ -37,6 +39,7 @@ const ProductDetails: React.FC<ProductDetailProps> = ({ product }) => {
         <Button
           className="my-3 pb-2"
           onClick={() => {
+            addProduct(product)
             setToastIsOpen(true)
             setTimeout(() => setToastIsOpen(false), 1000 * 3)
           }}
