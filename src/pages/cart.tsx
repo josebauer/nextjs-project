@@ -1,4 +1,5 @@
 import CartTable from '@/components/CartTable'
+import CartTotal from '@/components/CartTotal'
 import Header from '@/components/Header'
 import Head from 'next/head'
 import { Container } from 'react-bootstrap'
@@ -21,6 +22,7 @@ export default function Cart() {
           </h1>
 
           <CartTable />
+          <CartTotal />
         </Container>
       </main>
     </>
