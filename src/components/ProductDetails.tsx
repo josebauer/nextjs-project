@@ -25,14 +25,14 @@ const ProductDetails: React.FC<ProductDetailProps> = ({ product }) => {
       <Col lg={6}>
         <h1>{product.name}</h1>
 
-        <h2>R$ {product.price}</h2>
+        <h2 className="text-muted">R$ {product.price}</h2>
 
         <p>
           <span className="d-block font-weight-bold">Descrição:</span>
           {product.description}
         </p>
 
-        <p>Em estoque: {product.inStock}</p>
+        <p className="text-muted">Em estoque: {product.inStock}</p>
 
         <Button
           className="my-3 pb-2"
@@ -49,3 +49,5 @@ const ProductDetails: React.FC<ProductDetailProps> = ({ product }) => {
     </Row>
   )
 }
+
+export default ProductDetails
