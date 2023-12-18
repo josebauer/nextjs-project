@@ -4,6 +4,8 @@ import { Card } from "react-bootstrap"
 const CartTotal = () => {
   const { cart } = useCart()
 
+  const amount = cart.reduce((total, product) => total + product.price, 0)
+
   return (
     <Card className="ms-auto" style={{ maxWidth: '20rem' }}>
       <Card.Body className="d-flex justify-content-between">
@@ -11,7 +13,10 @@ const CartTotal = () => {
           Total:
         </strong>
         <span>
-          R$ {cart.reduce((total, product) => total + product.price, 0)}
+          {amount.toLocaleString('pt-BR', {
+            style: 'currency',
+            currency: 'BRL'
+          })}
         </span>
       </Card.Body>
     </Card>

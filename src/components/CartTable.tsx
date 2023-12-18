@@ -13,6 +13,7 @@ const CartTableRow = (props: {
   entry: CartEntry
 }) => {
   const { addProduct, removeProduct } = useCart()
+  const quantityItems = (props.entry.product.price * props.entry.quantity)
 
   return (
     <tr>
@@ -31,9 +32,19 @@ const CartTableRow = (props: {
           </Col>
         </Row>
       </td>
-      <td>R$ {props.entry.product.price}</td>
+      <td>
+        {props.entry.product.price.toLocaleString('pt-BR', {
+          style: 'currency',
+          currency: 'BRL'
+        })}
+      </td>
       <td>{props.entry.quantity}</td>
-      <td>R$ {(props.entry.product.price * props.entry.quantity)}</td>
+      <td>
+        {quantityItems.toLocaleString('pt-BR', {
+          style: 'currency',
+          currency: 'BRL'
+        })}
+      </td>
       <td>
         <Button
           size="sm"
