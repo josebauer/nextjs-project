@@ -1,4 +1,4 @@
-import { useCart } from "@/hooks/UseCart"
+import { useCart } from "./../hooks/useCart"
 import { ProductType } from "./services/products"
 import { Button, Col, Row, Table } from "react-bootstrap"
 import Image from "next/image"
