@@ -1,39 +1,43 @@
 [  
   {
     "id": 1,
-    "name": "PlayStation 5",
+    "name": "Console PlayStation 5 - Mídia Física",
     "description": "Potência pura para profissionais. O MacBook Pro mais poderoso de todos chegou. Com os ultrarrápidos M1 Pro ou M1 Max, os primeiros chips da Apple feitos para profissionais, o novo MacBook Pro tem desempenho revolucionário e bateria com duração impressionante. Junte a isso uma tela Liquid Retina XDR espetacular, a melhor câmera e sistema de áudio em um notebook Mac e todas as portas que você poderia querer. Ele é diferente de tudo que veio antes. E é um fenômeno.",
+    "category": "console",
     "price": 4499.00,
     "imageUrl": "https://i.pinimg.com/736x/76/47/bd/7647bd8094eafac2b391351f6799098e.jpg",
     "inStock": 50
   },
   {
     "id": 2,
-    "name": "PS5 - Digital Edition",
+    "name": "Console Playstation 5 - Edição Digital",
     "description": "Potência pura para profissionais. O MacBook Pro mais poderoso de todos chegou. Com os ultrarrápidos M1 Pro ou M1 Max, os primeiros chips da Apple feitos para profissionais, o novo MacBook Pro tem desempenho revolucionário e bateria com duração impressionante. Junte a isso uma tela Liquid Retina XDR espetacular, a melhor câmera e sistema de áudio em um notebook Mac e todas as portas que você poderia querer. Ele é diferente de tudo que veio antes. E é um fenômeno.",
+    "category": "console",
     "price": 3999.00,
     "imageUrl": "https://i.pinimg.com/736x/3c/87/67/3c87673cf3c96de53e32e408aebcc3e0.jpg",
     "inStock": 50
   },
   {
     "id": 3,
-    "name": "Xbox Series S",
+    "name": "Console Microsoft Xbox Series S",
     "description": "Potência pura para profissionais. O MacBook Pro mais poderoso de todos chegou. Com os ultrarrápidos M1 Pro ou M1 Max, os primeiros chips da Apple feitos para profissionais, o novo MacBook Pro tem desempenho revolucionário e bateria com duração impressionante. Junte a isso uma tela Liquid Retina XDR espetacular, a melhor câmera e sistema de áudio em um notebook Mac e todas as portas que você poderia querer. Ele é diferente de tudo que veio antes. E é um fenômeno.",
+    "category": "console",
     "price": 3599.00,
     "imageUrl": "https://i.pinimg.com/736x/40/e1/61/40e1612f155885fbaf7e5220e694512a.jpg",
     "inStock": 50
   },
   {
     "id": 4,
-    "name": "Xbox Series X",
+    "name": "Console Microsoft Xbox Series X",
     "description": "Potência pura para profissionais. O MacBook Pro mais poderoso de todos chegou. Com os ultrarrápidos M1 Pro ou M1 Max, os primeiros chips da Apple feitos para profissionais, o novo MacBook Pro tem desempenho revolucionário e bateria com duração impressionante. Junte a isso uma tela Liquid Retina XDR espetacular, a melhor câmera e sistema de áudio em um notebook Mac e todas as portas que você poderia querer. Ele é diferente de tudo que veio antes. E é um fenômeno.",
+    "category": "console",
     "price": 4499.00,
     "imageUrl": "https://i.pinimg.com/736x/7b/f1/c5/7bf1c56e0843ba95f9e9976d08b5a711.jpg",
     "inStock": 50
   },
   {
     "id": 5,
-    "name": "Thrustmaster T-GT II",
+    "name": "Volante Thrustmaster T-GT II - PS4/PS5/PC",
     "description": "Potência pura para profissionais. O MacBook Pro mais poderoso de todos chegou. Com os ultrarrápidos M1 Pro ou M1 Max, os primeiros chips da Apple feitos para profissionais, o novo MacBook Pro tem desempenho revolucionário e bateria com duração impressionante. Junte a isso uma tela Liquid Retina XDR espetacular, a melhor câmera e sistema de áudio em um notebook Mac e todas as portas que você poderia querer. Ele é diferente de tudo que veio antes. E é um fenômeno.",
     "price": 5999.00,
     "imageUrl": "https://i.pinimg.com/564x/32/19/30/321930c5085f047179bf73ac63aa50f3.jpg",
@@ -41,7 +45,7 @@
   },
   {
     "id": 6,
-    "name": "Thrustmaster T300RS GT",
+    "name": "Volante Thrustmaster T300RS GT - PS4/PS5/PC",
     "description": "Potência pura para profissionais. O MacBook Pro mais poderoso de todos chegou. Com os ultrarrápidos M1 Pro ou M1 Max, os primeiros chips da Apple feitos para profissionais, o novo MacBook Pro tem desempenho revolucionário e bateria com duração impressionante. Junte a isso uma tela Liquid Retina XDR espetacular, a melhor câmera e sistema de áudio em um notebook Mac e todas as portas que você poderia querer. Ele é diferente de tudo que veio antes. E é um fenômeno.",
     "price": 2999.00,
     "imageUrl": "https://i.pinimg.com/736x/74/40/15/7440152fa0948318ffff044e3189b0ac.jpg",
@@ -49,7 +53,7 @@
   },
   {
     "id": 7,
-    "name": "Thrustmaster T-LCM Pedals",
+    "name": "Pedais Thrustmaster T-LCM com célula de carga",
     "description": "Potência pura para profissionais. O MacBook Pro mais poderoso de todos chegou. Com os ultrarrápidos M1 Pro ou M1 Max, os primeiros chips da Apple feitos para profissionais, o novo MacBook Pro tem desempenho revolucionário e bateria com duração impressionante. Junte a isso uma tela Liquid Retina XDR espetacular, a melhor câmera e sistema de áudio em um notebook Mac e todas as portas que você poderia querer. Ele é diferente de tudo que veio antes. E é um fenômeno.",
     "price": 1899.00,
     "imageUrl": "https://i.pinimg.com/736x/fd/d1/fd/fdd1fd168421c10717dba52279b0fd49.jpg",
@@ -57,7 +61,7 @@
   },
   {
     "id": 8,
-    "name": "Add-on Ferrari SF-1000",
+    "name": "Aro Thrustmaster Ferrari SF-1000",
     "description": "Potência pura para profissionais. O MacBook Pro mais poderoso de todos chegou. Com os ultrarrápidos M1 Pro ou M1 Max, os primeiros chips da Apple feitos para profissionais, o novo MacBook Pro tem desempenho revolucionário e bateria com duração impressionante. Junte a isso uma tela Liquid Retina XDR espetacular, a melhor câmera e sistema de áudio em um notebook Mac e todas as portas que você poderia querer. Ele é diferente de tudo que veio antes. E é um fenômeno.",
     "price": 3999.00,
     "imageUrl": "https://i.pinimg.com/736x/a2/3e/6b/a23e6b8f164371e20af5161d263d6db6.jpg",
@@ -65,7 +69,7 @@
   },
   {
     "id": 9,
-    "name": "Volante Logitech G29",
+    "name": "Volante Logitech G29 - PS4/PS5/PC",
     "description": "Potência pura para profissionais. O MacBook Pro mais poderoso de todos chegou. Com os ultrarrápidos M1 Pro ou M1 Max, os primeiros chips da Apple feitos para profissionais, o novo MacBook Pro tem desempenho revolucionário e bateria com duração impressionante. Junte a isso uma tela Liquid Retina XDR espetacular, a melhor câmera e sistema de áudio em um notebook Mac e todas as portas que você poderia querer. Ele é diferente de tudo que veio antes. E é um fenômeno.",
     "price": 1799.00,
     "imageUrl": "https://i.pinimg.com/736x/41/32/ec/4132ec5469fe7a05e5f9565e8ab50666.jpg",
@@ -73,7 +77,7 @@
   },
   {
     "id": 10,
-    "name": "Volante Logitech G923",
+    "name": "Volante Logitech G923 - Xbox one/Series/PC",
     "description": "Potência pura para profissionais. O MacBook Pro mais poderoso de todos chegou. Com os ultrarrápidos M1 Pro ou M1 Max, os primeiros chips da Apple feitos para profissionais, o novo MacBook Pro tem desempenho revolucionário e bateria com duração impressionante. Junte a isso uma tela Liquid Retina XDR espetacular, a melhor câmera e sistema de áudio em um notebook Mac e todas as portas que você poderia querer. Ele é diferente de tudo que veio antes. E é um fenômeno.",
     "price": 2499.00,
     "imageUrl": "https://i.pinimg.com/736x/a8/09/6d/a8096dbeebf5af77dc6474e56e745924.jpg",
@@ -81,7 +85,7 @@
   },
   {
     "id": 11,
-    "name": "HyperX Cloud Alpha S",
+    "name": "Headset HyperX Cloud Alpha S",
     "description": "Potência pura para profissionais. O MacBook Pro mais poderoso de todos chegou. Com os ultrarrápidos M1 Pro ou M1 Max, os primeiros chips da Apple feitos para profissionais, o novo MacBook Pro tem desempenho revolucionário e bateria com duração impressionante. Junte a isso uma tela Liquid Retina XDR espetacular, a melhor câmera e sistema de áudio em um notebook Mac e todas as portas que você poderia querer. Ele é diferente de tudo que veio antes. E é um fenômeno.",
     "price": 499.00,
     "imageUrl": "https://i.pinimg.com/564x/a8/49/35/a84935f8d2df99fdf3c7392c7079aa7d.jpg",
@@ -89,7 +93,7 @@
   },
   {
     "id": 11,
-    "name": "HyperX Cloud Flight",
+    "name": "Headset HyperX Cloud Flight",
     "description": "Potência pura para profissionais. O MacBook Pro mais poderoso de todos chegou. Com os ultrarrápidos M1 Pro ou M1 Max, os primeiros chips da Apple feitos para profissionais, o novo MacBook Pro tem desempenho revolucionário e bateria com duração impressionante. Junte a isso uma tela Liquid Retina XDR espetacular, a melhor câmera e sistema de áudio em um notebook Mac e todas as portas que você poderia querer. Ele é diferente de tudo que veio antes. E é um fenômeno.",
     "price": 499.00,
     "imageUrl": "https://i.pinimg.com/564x/8c/fc/9b/8cfc9bd6fe57ff4025d29a8c483bbda4.jpg",
@@ -97,7 +101,7 @@
   },
   {
     "id": 12,
-    "name": "Teclado HyperX Alloy FPS",
+    "name": "Teclado mecânico HyperX Alloy FPS",
     "description": "Potência pura para profissionais. O MacBook Pro mais poderoso de todos chegou. Com os ultrarrápidos M1 Pro ou M1 Max, os primeiros chips da Apple feitos para profissionais, o novo MacBook Pro tem desempenho revolucionário e bateria com duração impressionante. Junte a isso uma tela Liquid Retina XDR espetacular, a melhor câmera e sistema de áudio em um notebook Mac e todas as portas que você poderia querer. Ele é diferente de tudo que veio antes. E é um fenômeno.",
     "price": 499.00,
     "imageUrl": "https://i.pinimg.com/564x/b7/39/8c/b7398c601d936b472616dd8c41c746fb.jpg",
@@ -105,7 +109,7 @@
   },
   {
     "id": 12,
-    "name": "HyperX Pulsefire Surge",
+    "name": "Mouse gamer HyperX Pulsefire Surge",
     "description": "Potência pura para profissionais. O MacBook Pro mais poderoso de todos chegou. Com os ultrarrápidos M1 Pro ou M1 Max, os primeiros chips da Apple feitos para profissionais, o novo MacBook Pro tem desempenho revolucionário e bateria com duração impressionante. Junte a isso uma tela Liquid Retina XDR espetacular, a melhor câmera e sistema de áudio em um notebook Mac e todas as portas que você poderia querer. Ele é diferente de tudo que veio antes. E é um fenômeno.",
     "price": 349.00,
     "imageUrl": "https://i.pinimg.com/564x/96/44/25/9644259eb496d5af77e0109e8136d3e8.jpg",
@@ -113,7 +117,7 @@
   },
   {
     "id": 13,
-    "name": "Controle DualSense PS5",
+    "name": "Controle DualSense para PlayStation 5",
     "description": "Uma potência no ar. O chip M1 da Apple revolucionou nosso notebook mais fino e leve. A CPU e a GPU estão mais rápidas, até 3,5 vezes e até cinco vezes, respectivamente. Nosso Neural Engine avançado deixa o aprendizado de máquina até nove vezes mais veloz. A bateria oferece mais tempo de duração. E trocamos a ventoinha pelo silêncio. Nunca tanto desempenho esteve reunido em um MacBook Air.",
     "price": 359.00,
     "imageUrl": "https://i.pinimg.com/564x/58/69/92/5869929097cf73e66dc199f6ff9611bd.jpg",
@@ -121,7 +125,7 @@
   },
   {
     "id": 14,
-    "name": "Controle Xbox Series S/X",
+    "name": "Controle para Xbox Series S/X",
     "description": "Uma potência no ar. O chip M1 da Apple revolucionou nosso notebook mais fino e leve. A CPU e a GPU estão mais rápidas, até 3,5 vezes e até cinco vezes, respectivamente. Nosso Neural Engine avançado deixa o aprendizado de máquina até nove vezes mais veloz. A bateria oferece mais tempo de duração. E trocamos a ventoinha pelo silêncio. Nunca tanto desempenho esteve reunido em um MacBook Air.",
     "price": 449.00,
     "imageUrl": "https://i.pinimg.com/564x/74/5d/c4/745dc40c8692f0fff8896f670e113a25.jpg",
@@ -129,7 +133,7 @@
   },
   {
     "id": 15,
-    "name": "Asus GeForce RTX 4070 Ti",
+    "name": "Placa de vídeo Asus NVIDIA GeForce RTX 4070 Ti",
     "description": "Uma potência no ar. O chip M1 da Apple revolucionou nosso notebook mais fino e leve. A CPU e a GPU estão mais rápidas, até 3,5 vezes e até cinco vezes, respectivamente. Nosso Neural Engine avançado deixa o aprendizado de máquina até nove vezes mais veloz. A bateria oferece mais tempo de duração. E trocamos a ventoinha pelo silêncio. Nunca tanto desempenho esteve reunido em um MacBook Air.",
     "price": 6499.00,
     "imageUrl": "https://i.pinimg.com/564x/2e/b2/da/2eb2daccf52749dfded154c4bbea92c5.jpg",
@@ -137,7 +141,7 @@
   },
   {
     "id": 16,
-    "name": "Asus GeForce RTX 4090",
+    "name": "Placa de Vídeo RTX 4090 Asus NVIDIA ROG Strix",
     "description": "Uma potência no ar. O chip M1 da Apple revolucionou nosso notebook mais fino e leve. A CPU e a GPU estão mais rápidas, até 3,5 vezes e até cinco vezes, respectivamente. Nosso Neural Engine avançado deixa o aprendizado de máquina até nove vezes mais veloz. A bateria oferece mais tempo de duração. E trocamos a ventoinha pelo silêncio. Nunca tanto desempenho esteve reunido em um MacBook Air.",
     "price": 12999.00,
     "imageUrl": "https://i.pinimg.com/564x/12/ee/30/12ee303b4b1794aa55218410e146986f.jpg",
@@ -145,15 +149,15 @@
   },
   {
     "id": 17,
-    "name": "CPU Intel Core i9 13900k",
-    "description": "Uma potência no ar. O chip M1 da Apple revolucionou nosso notebook mais fino e leve. A CPU e a GPU estão mais rápidas, até 3,5 vezes e até cinco vezes, respectivamente. Nosso Neural Engine avançado deixa o aprendizado de máquina até nove vezes mais veloz. A bateria oferece mais tempo de duração. E trocamos a ventoinha pelo silêncio. Nunca tanto desempenho esteve reunido em um MacBook Air.",
+    "name": "Processador Intel Core i9 13900k",
+    "description": "Uma potência no ar. O chip M1 da Apple revolucionou nosso notebook mais fino e leve. A Processador e a GPU estão mais rápidas, até 3,5 vezes e até cinco vezes, respectivamente. Nosso Neural Engine avançado deixa o aprendizado de máquina até nove vezes mais veloz. A bateria oferece mais tempo de duração. E trocamos a ventoinha pelo silêncio. Nunca tanto desempenho esteve reunido em um MacBook Air.",
     "price": 3984.99,
     "imageUrl": "https://i.pinimg.com/564x/92/07/12/92071283d4e5e842cdc33b64e3f7bdca.jpg",
     "inStock": 50
   },
   {
     "id": 18,
-    "name": "CPU AMD Ryzen 9 7950x3D",
+    "name": "Processador AMD Ryzen 9 7950x3D",
     "description": "Uma potência no ar. O chip M1 da Apple revolucionou nosso notebook mais fino e leve. A CPU e a GPU estão mais rápidas, até 3,5 vezes e até cinco vezes, respectivamente. Nosso Neural Engine avançado deixa o aprendizado de máquina até nove vezes mais veloz. A bateria oferece mais tempo de duração. E trocamos a ventoinha pelo silêncio. Nunca tanto desempenho esteve reunido em um MacBook Air.",
     "price": 3824.99,
     "imageUrl": "https://i.pinimg.com/564x/31/fe/8f/31fe8ff5b5ce43ad7ea1b06aa8eb7aec.jpg",
