@@ -27,7 +27,12 @@ const ProductDetails: React.FC<ProductDetailProps> = ({ product }) => {
       <Col lg={6}>
         <h1>{product.name}</h1>
 
-        <h2 className="text-muted">R$ {product.price}</h2>
+        <h2 className="text-muted">
+          {product.price.toLocaleString('pt-BR', {
+            style: 'currency',
+            currency: 'BRL'
+          })}
+        </h2>
 
         <p>
           <span className="d-block font-weight-bold">Descrição:</span>

@@ -19,7 +19,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     <>
       <Card>
         <Link href={`/products/${id}`}>
-          <Image className="card-img-top" src={imageUrl} alt={product.name} height={250} width={500}/>
+          <Image className="card-img-top" src={imageUrl} alt={product.name} height={250} width={500} />
         </Link>
 
         <Card.Body>
@@ -30,7 +30,10 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           </Link>
 
           <Card.Subtitle className="mb-3 text-muted">
-            R$ {price}
+            {price.toLocaleString('pt-BR', {
+              style: 'currency',
+              currency: 'BRL'
+            })}
           </Card.Subtitle>
 
           <Button
@@ -46,10 +49,10 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         </Card.Body>
       </Card>
 
-      <SuccessToast toastIsOpen={toastIsOpen} setToastIsOpen={setToastIsOpen}/>
+      <SuccessToast toastIsOpen={toastIsOpen} setToastIsOpen={setToastIsOpen} />
     </>
   )
-  
+
 }
 
 export default ProductCard
