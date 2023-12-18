@@ -1,4 +1,4 @@
-import { Button, CloseButton, Toast, ToastBody } from "react-bootstrap"
+import { CloseButton, Toast, ToastBody } from "react-bootstrap"
 
 const SuccessToast = (props: {
   toastIsOpen: boolean

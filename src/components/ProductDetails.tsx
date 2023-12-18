@@ -3,7 +3,7 @@ import { ProductType } from "./services/products"
 import { Button, Col, Row } from "react-bootstrap"
 import Image from "next/image"
 import SuccessToast from "./SuccessToast"
-import { useCart } from "@/hooks/UseCart"
+import { useCart } from "../hooks/useCart"
 
 type ProductDetailProps = {
   product: ProductType

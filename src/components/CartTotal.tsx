@@ -1,4 +1,4 @@
-import { useCart } from "@/hooks/UseCart"
+import { useCart } from "../hooks/useCart"
 import { Card } from "react-bootstrap"
 
 const CartTotal = () => {
