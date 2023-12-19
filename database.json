@@ -92,15 +92,15 @@
     "inStock": 50
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "Headset HyperX Cloud Flight",
     "description": "Potência pura para profissionais. O MacBook Pro mais poderoso de todos chegou. Com os ultrarrápidos M1 Pro ou M1 Max, os primeiros chips da Apple feitos para profissionais, o novo MacBook Pro tem desempenho revolucionário e bateria com duração impressionante. Junte a isso uma tela Liquid Retina XDR espetacular, a melhor câmera e sistema de áudio em um notebook Mac e todas as portas que você poderia querer. Ele é diferente de tudo que veio antes. E é um fenômeno.",
-    "price": 499.00,
+    "price": 759.99,
     "imageUrl": "https://i.pinimg.com/564x/8c/fc/9b/8cfc9bd6fe57ff4025d29a8c483bbda4.jpg",
     "inStock": 50
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "Teclado mecânico HyperX Alloy FPS",
     "description": "Potência pura para profissionais. O MacBook Pro mais poderoso de todos chegou. Com os ultrarrápidos M1 Pro ou M1 Max, os primeiros chips da Apple feitos para profissionais, o novo MacBook Pro tem desempenho revolucionário e bateria com duração impressionante. Junte a isso uma tela Liquid Retina XDR espetacular, a melhor câmera e sistema de áudio em um notebook Mac e todas as portas que você poderia querer. Ele é diferente de tudo que veio antes. E é um fenômeno.",
     "price": 499.00,
@@ -108,7 +108,7 @@
     "inStock": 50
   },
   {
-    "id": 12,
+    "id": 14,
     "name": "Mouse gamer HyperX Pulsefire Surge",
     "description": "Potência pura para profissionais. O MacBook Pro mais poderoso de todos chegou. Com os ultrarrápidos M1 Pro ou M1 Max, os primeiros chips da Apple feitos para profissionais, o novo MacBook Pro tem desempenho revolucionário e bateria com duração impressionante. Junte a isso uma tela Liquid Retina XDR espetacular, a melhor câmera e sistema de áudio em um notebook Mac e todas as portas que você poderia querer. Ele é diferente de tudo que veio antes. E é um fenômeno.",
     "price": 349.00,
@@ -116,7 +116,7 @@
     "inStock": 50
   },
   {
-    "id": 13,
+    "id": 15,
     "name": "Controle DualSense para PlayStation 5",
     "description": "Uma potência no ar. O chip M1 da Apple revolucionou nosso notebook mais fino e leve. A CPU e a GPU estão mais rápidas, até 3,5 vezes e até cinco vezes, respectivamente. Nosso Neural Engine avançado deixa o aprendizado de máquina até nove vezes mais veloz. A bateria oferece mais tempo de duração. E trocamos a ventoinha pelo silêncio. Nunca tanto desempenho esteve reunido em um MacBook Air.",
     "price": 359.00,
@@ -124,7 +124,7 @@
     "inStock": 50
   },
   {
-    "id": 14,
+    "id": 16,
     "name": "Controle para Xbox Series S/X",
     "description": "Uma potência no ar. O chip M1 da Apple revolucionou nosso notebook mais fino e leve. A CPU e a GPU estão mais rápidas, até 3,5 vezes e até cinco vezes, respectivamente. Nosso Neural Engine avançado deixa o aprendizado de máquina até nove vezes mais veloz. A bateria oferece mais tempo de duração. E trocamos a ventoinha pelo silêncio. Nunca tanto desempenho esteve reunido em um MacBook Air.",
     "price": 449.00,
@@ -132,7 +132,7 @@
     "inStock": 50
   },
   {
-    "id": 15,
+    "id": 17,
     "name": "Placa de vídeo Asus NVIDIA GeForce RTX 4070 Ti",
     "description": "Uma potência no ar. O chip M1 da Apple revolucionou nosso notebook mais fino e leve. A CPU e a GPU estão mais rápidas, até 3,5 vezes e até cinco vezes, respectivamente. Nosso Neural Engine avançado deixa o aprendizado de máquina até nove vezes mais veloz. A bateria oferece mais tempo de duração. E trocamos a ventoinha pelo silêncio. Nunca tanto desempenho esteve reunido em um MacBook Air.",
     "price": 6499.00,
@@ -140,7 +140,7 @@
     "inStock": 50
   },
   {
-    "id": 16,
+    "id": 18,
     "name": "Placa de Vídeo RTX 4090 Asus NVIDIA ROG Strix",
     "description": "Uma potência no ar. O chip M1 da Apple revolucionou nosso notebook mais fino e leve. A CPU e a GPU estão mais rápidas, até 3,5 vezes e até cinco vezes, respectivamente. Nosso Neural Engine avançado deixa o aprendizado de máquina até nove vezes mais veloz. A bateria oferece mais tempo de duração. E trocamos a ventoinha pelo silêncio. Nunca tanto desempenho esteve reunido em um MacBook Air.",
     "price": 12999.00,
@@ -148,7 +148,7 @@
     "inStock": 50
   },
   {
-    "id": 17,
+    "id": 19,
     "name": "Processador Intel Core i9 13900k",
     "description": "Uma potência no ar. O chip M1 da Apple revolucionou nosso notebook mais fino e leve. A Processador e a GPU estão mais rápidas, até 3,5 vezes e até cinco vezes, respectivamente. Nosso Neural Engine avançado deixa o aprendizado de máquina até nove vezes mais veloz. A bateria oferece mais tempo de duração. E trocamos a ventoinha pelo silêncio. Nunca tanto desempenho esteve reunido em um MacBook Air.",
     "price": 3984.99,
@@ -156,7 +156,7 @@
     "inStock": 50
   },
   {
-    "id": 18,
+    "id": 20,
     "name": "Processador AMD Ryzen 9 7950x3D",
     "description": "Uma potência no ar. O chip M1 da Apple revolucionou nosso notebook mais fino e leve. A CPU e a GPU estão mais rápidas, até 3,5 vezes e até cinco vezes, respectivamente. Nosso Neural Engine avançado deixa o aprendizado de máquina até nove vezes mais veloz. A bateria oferece mais tempo de duração. E trocamos a ventoinha pelo silêncio. Nunca tanto desempenho esteve reunido em um MacBook Air.",
     "price": 3824.99,
@@ -164,7 +164,7 @@
     "inStock": 50
   },
   {
-    "id": 19,
+    "id": 21,
     "name": "Placa Mãe Asus Rog Crosshair X670e",
     "description": "Uma potência no ar. O chip M1 da Apple revolucionou nosso notebook mais fino e leve. A CPU e a GPU estão mais rápidas, até 3,5 vezes e até cinco vezes, respectivamente. Nosso Neural Engine avançado deixa o aprendizado de máquina até nove vezes mais veloz. A bateria oferece mais tempo de duração. E trocamos a ventoinha pelo silêncio. Nunca tanto desempenho esteve reunido em um MacBook Air.",
     "price": 5999.00,
@@ -172,7 +172,7 @@
     "inStock": 50
   },
   {
-    "id": 20,
+    "id": 22,
     "name": "Placa Mãe Gigabyte Z790 Aourus Master",
     "description": "Uma potência no ar. O chip M1 da Apple revolucionou nosso notebook mais fino e leve. A CPU e a GPU estão mais rápidas, até 3,5 vezes e até cinco vezes, respectivamente. Nosso Neural Engine avançado deixa o aprendizado de máquina até nove vezes mais veloz. A bateria oferece mais tempo de duração. E trocamos a ventoinha pelo silêncio. Nunca tanto desempenho esteve reunido em um MacBook Air.",
     "price": 6999.00,
