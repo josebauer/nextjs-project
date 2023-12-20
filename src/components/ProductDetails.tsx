@@ -35,7 +35,7 @@ const ProductDetails: React.FC<ProductDetailProps> = ({ product }) => {
         </h2>
 
         <p>
-          <span className="d-block font-weight-bold">Descrição:</span>
+          <span className="d-block font-weight-bold my-3">Descrição:</span>
           {product.description}
         </p>
 
