@@ -1,7 +1,8 @@
 import Header from "@/components/Header";
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
-import { Button, Container, FloatingLabel, Form, Image } from "react-bootstrap";
+import { Button, Container, FloatingLabel, Form } from "react-bootstrap";
 
 export default function Login() {
   return (
@@ -16,28 +17,29 @@ export default function Login() {
 
       <main>
         <Container className="mt-5 border rounded p-5 shadow d-flex flex-column align-items-center" style={{ maxWidth: '50rem' }} >
-          <Image className="" src='/security-icon.png' width={50} height={50}></Image>
+          <Image src='/security-icon.png' alt='ícone de segurança' width={50} height={50}></Image>
           <h2 className="text-center my-5">Já possui cadastro?<br />Informe seus dados abaixo!</h2>
           <Form>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
-              <FloatingLabel controlId="floatingInput" label="E-mail*">
-                <Form.Control className="" type="email" placeholder="Insira seu email" required />
-              </FloatingLabel>
-            </Form.Group>
-            <Form.Group className="mb-3" controlId="formBasicPassword">
-              <FloatingLabel controlId="floatingPassword" label="Senha*">
-                <Form.Control type="password" placeholder="Senha" required />
-              </FloatingLabel>
-            </Form.Group>
+            <FloatingLabel className="mb-3" controlId="floatingInput" label="E-mail*">
+              <Form.Control type="email" placeholder="Insira seu email" required />
+            </FloatingLabel>
+
+            <FloatingLabel className="mb-3" controlId="floatingPassword" label="Senha*">
+              <Form.Control type="password" placeholder="Senha" required />
+            </FloatingLabel>
+
             <Form.Group className="py-3 mb-3" controlId="formBasicCheckbox">
               <Form.Check type="checkbox" label="Lembrar meus dados" />
             </Form.Group>
+
             <Button variant="primary" type="submit">
               Entrar
             </Button>
+
             <Link className="px-3 text-decoration-none" href='/register'>
               Não sou cadastrado
             </Link>
+
             <Link className="text-decoration-none" href='/forgetPassword'>Esqueci minha senha</Link>
           </Form>
         </Container>
